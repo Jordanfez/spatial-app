@@ -134,7 +134,7 @@ function App() {
       <Route path="/profil" element={<Profil />} /> */}
 
               {/* <Route path="/home" element={<HomeScreen/>} /> */}
-              {/* <Route path="/responsiveAppBar" element={<ResponsiveAppBar />} /> */}
+              <Route path="/responsiveAppBar" element={<ResponsiveAppBar />} />
 
               {/**section routes des employeurs */}
               <Route path="/DetailProjet" element={<DetailProjet />} />
