@@ -1,0 +1,79 @@
+{
+  "name": "psi-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emailjs/browser": "^4.3.3",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.14.12",
+    "@mui/lab": "^5.0.0-alpha.150",
+    "@mui/material": "^5.14.15",
+    "@mui/styled-engine-sc": "^6.0.0-alpha.3",
+    "@mui/x-data-grid": "^6.16.2",
+    "@mui/x-date-pickers": "^6.18.0",
+    "@mui/x-date-pickers-pro": "^6.18.0",
+    "@reduxjs/toolkit": "^1.9.7",
+    "@syncfusion/ej2-react-calendars": "^23.1.38",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "aos": "^3.0.0-beta.6",
+    "axios": "^1.6.1",
+    "bootstrap": "^5.3.2",
+    "bootstrap-icons": "^1.11.1",
+    "dayjs": "^1.11.10",
+    "gatsby": "^5.12.9",
+    "jquery": "^3.7.1",
+    "moment": "^2.29.4",
+    "react": "^18.2.0",
+    "react-alice-carousel": "^2.7.1",
+    "react-bootstrap": "^2.9.0",
+    "react-card-slider-component": "^1.0.9",
+    "react-datepicker": "^4.18.0",
+    "react-dom": "^18.2.0",
+    "react-elastic-carousel": "^0.11.5",
+    "react-quill": "^2.0.0",
+    "react-redux": "^8.1.3",
+    "react-router-bootstrap": "^0.26.2",
+    "react-router-dom": "^6.18.0",
+    "react-scripts": "^5.0.1",
+    "react-spinners": "^0.13.8",
+    "react-spring-3d-carousel": "^1.3.4",
+    "react-swipeable-views-utils": "^0.14.0",
+    "react-typewriter-effect": "^1.1.0",
+    "redux": "^4.2.1",
+    "redux-persist": "^6.0.0",
+    "redux-thunk": "^2.4.2",
+    "styled-components": "^6.1.0",
+    "swiper": "^10.3.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}

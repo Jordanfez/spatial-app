@@ -1,0 +1,92 @@
+.smoothie-card {
+    align-items: flex-start;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0px 4px 40px #00000014;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    height: auto;
+    padding: 14px 14px 24px;
+    position: relative;
+    width: auto;
+}
+
+.smoothie-card .rectangle {
+    align-self: stretch;
+    flex: 1;
+    flex-grow: 1;
+    object-fit: cover;
+    position: relative;
+    width: auto;
+}
+
+.smoothie-card .frame {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    gap: 10px;
+    height: auto;
+    padding: 8px 8px 8px 12px;
+    position: relative;
+    width: auto;
+}
+
+.smoothie-card .text-wrapper {
+    color: #284a80;
+    flex: 1;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    letter-spacing: normal;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+}
+
+.smoothie-card .div {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    gap: 24px;
+    height: auto;
+    position: relative;
+    width: auto;
+}
+
+.smoothie-card .ellipse {
+    align-self: stretch;
+    object-fit: cover;
+    position: relative;
+    width: auto;
+}
+
+.smoothie-card .frame-2 {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 3px;
+    position: relative;
+}
+
+.smoothie-card .text-wrapper-2 {
+    align-self: stretch;
+    color: #284a80;
+    flex: 1;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 28px;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+}
+
+.smoothie-card .p {
+    color: #8d98aa;
+    font-family: "Inter-Light", Helvetica;
+
+}

@@ -1,0 +1,1823 @@
+.element-homepage {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    overflow: scroll;
+}
+
+.element-homepage .div-2 {
+    background-color: #ffffff;
+    height: 899px;
+    overflow-x: hidden;
+    position: relative;
+    width: 1800px;
+}
+
+.element-homepage .overlap {
+    background-color: #f1f2f4;
+    height: 50px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1800px;
+}
+
+.element-homepage .frame-11 {
+    align-items: flex-start;
+    display: flex;
+    gap: 7px;
+    height: 36px;
+    left: 89px;
+    position: absolute;
+    top: 7px;
+    width: 518px;
+}
+
+.element-homepage .first-check-box {
+    align-items: center;
+    border-radius: 5px;
+    display: flex;
+    gap: 10px;
+    height: 36px;
+    justify-content: center;
+    padding: 6px 10px;
+    position: relative;
+    width: 60px;
+}
+
+.element-homepage .text-wrapper-10:hover {
+    color: #00000080;
+    font-family: "Roboto-Regular", Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 15px;
+    margin-left: -4.5px;
+    margin-right: -4.5px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+    transition: color 0.3s;
+}
+
+.element-homepage .text-wrapper-10:hover {
+    color: #0a65cc;
+}
+
+.element-homepage .first-check-box-2 {
+    align-items: center;
+    border-radius: 5px;
+    display: flex;
+    gap: 10px;
+    height: 36px;
+    justify-content: center;
+    padding: 6px 10px;
+    position: relative;
+    width: 101px;
+}
+
+.element-homepage .text-wrapper-11 {
+    color: #0a65cccc;
+    font-family: "Roboto-Regular", Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 15px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+    transition: color 0.3s;
+}
+
+.element-homepage .text-wrapper-11:hover {
+    color: #0a65cc;
+}
+
+.element-homepage .first-check-box-3 {
+    align-items: center;
+    border-radius: 5px;
+    display: flex;
+    gap: 10px;
+    height: 36px;
+    justify-content: center;
+    padding: 6px 10px;
+    position: relative;
+    width: 124px;
+}
+
+.element-homepage .text-wrapper-12 {
+    color: black;
+    opacity: 82%;
+    font-family: "Roboto-Regular", Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 15px;
+    margin-left: -3.5px;
+    margin-right: -3.5px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+    transition: color 0.3s;
+}
+
+.element-homepage .text-wrapper-12:hover {
+    color: #0a65cc;
+}
+
+.element-homepage .first-check-box-4 {
+    align-items: center;
+    border-radius: 5px;
+    display: flex;
+    gap: 10px;
+    height: 36px;
+    justify-content: center;
+    padding: 6px 10px;
+    position: relative;
+    width: 99px;
+}
+
+.element-homepage .first-check-box-5 {
+    align-items: center;
+    border-radius: 5px;
+    display: flex;
+    gap: 10px;
+    height: 36px;
+    justify-content: center;
+    margin-right: -34.5px;
+    padding: 5px 10px;
+    position: relative;
+    width: 140px;
+}
+
+.element-homepage .line {
+    height: 2px;
+    left: 170px;
+    position: absolute;
+    top: 48px;
+    width: 74px;
+}
+
+.element-homepage .overlap-2 {
+    height: 98px;
+    left: 0;
+    position: absolute;
+    top: 50px;
+    width: 1800px;
+}
+@media screen and (min-width: 900px) {
+    .overlap-2 {
+        width: 900px;
+    }
+    .frame-12 {
+        width: 300px;
+    }
+    .frame-13 {
+        height: 20px;
+    }
+  }
+
+.element-homepage .rectangle-2 {
+    background-color: #ffffff;
+    height: 90px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1800px;
+}
+
+.element-homepage .logo-PSI {
+    height: 97px;
+    left: 64px;
+    object-fit: cover;
+    position: absolute;
+    top: 1px;
+    width: 193px;
+}
+
+.element-homepage .frame-12 {
+    align-items: flex-start;
+    display: flex;
+    gap: 24px;
+    left: 313px;
+    position: absolute;
+    top: 28px;
+    width: 747px;
+}
+@media screen and (min-width: 900px) {
+    .frame-12 {
+        width: 300px;
+    }
+  }
+
+.element-homepage .frame-13 {
+    align-items: center;
+    border: 1px solid;
+    border-color: #9e9e9e;
+    border-radius: 8px;
+    display: flex;
+    flex: 1;
+    flex-grow: 1;
+    gap: 8px;
+    height: 34px;
+    padding: 8px 9px;
+    position: relative;
+}
+@media screen and (min-width: 900px) {
+    .frame-13 {
+        height: 20px;
+    }
+  }
+
+.element-homepage .icon-instance-node {
+    height: 16px !important;
+    position: relative !important;
+    width: 16px !important;
+}
+
+.element-homepage .text-wrapper-13 {
+    color: #9e9e9e;
+    flex: 1;
+    font-family: "Montserrat-Medium", Helvetica;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+}
+
+.element-homepage .frame-14 {
+    height: 45px;
+    left: 1357px;
+    position: absolute;
+    top: 23px;
+    width: 164px;
+}
+
+.element-homepage .frame-15 {
+    align-items: center;
+    border: 1px solid;
+    border-color: #0a65cc;
+    border-radius: 8px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    left: -10px;
+    padding: 5px 80px;
+    position: relative;
+    width: 15px;
+    cursor: pointer;
+}
+
+.element-homepage .text-wrapper-14 {
+    color: #0a65cc;
+    font-family: "Roboto-Bold", Helvetica;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1.44px;
+    line-height: 35px;
+    margin-left: -142.5px;
+    margin-right: -142.5px;
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.element-homepage .frame-16 {
+    height: 45px;
+    left: 1537px;
+    position: absolute;
+    top: 23px;
+    width: 164px;
+}
+
+.element-homepage .frame-17 {
+    align-items: center;
+    background-color: #0a65cc;
+    border: 1px solid;
+    border-color: #e5e5e5;
+    border-radius: 8px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    left: -1px;
+    padding: 5px 80px;
+    position: relative;
+    width: 15px;
+    cursor: pointer;
+}
+
+.element-homepage .text-wrapper-15 {
+    color: #ffffff;
+    font-family: "Roboto-Bold", Helvetica;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1.44px;
+    line-height: 35px;
+    margin-left: -160px;
+    margin-right: -160px;
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.element-homepage .overlap-3 {
+    background-color: #f1f2f4;
+    height: 518px;
+    left: 0;
+    position: absolute;
+    top: 1687px;
+    width: 1800px;
+}
+
+.element-homepage .text-wrapper-16 {
+    color: #000000;
+    font-family: "Roboto-SemiBold", Helvetica;
+    font-size: 36px;
+    font-weight: 600;
+    left: 655px;
+    letter-spacing: 2.88px;
+    line-height: 35px;
+    position: absolute;
+    top: 89px;
+    white-space: nowrap;
+}
+
+.element-homepage .group {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 16px #0000001a;
+    height: 240px;
+    left: 260px;
+    position: absolute;
+    top: 199px;
+    width: 300px;
+}
+
+.element-homepage .overlap-group-wrapper {
+    height: 77px;
+    left: 110px;
+    position: absolute;
+    top: 27px;
+    width: 82px;
+}
+
+.element-homepage .overlap-group-2 {
+    background-color: #0a65cc;
+    border-radius: 40px/38.71px;
+    height: 77px;
+    position: relative;
+    width: 80px;
+}
+
+.element-homepage .text-wrapper-17 {
+    color: #ffffff;
+    font-family: "Roboto-Bold", Helvetica;
+    font-size: 36px;
+    font-weight: 700;
+    left: 29px;
+    letter-spacing: 2.88px;
+    line-height: 35px;
+    position: absolute;
+    top: 21px;
+    white-space: nowrap;
+    width: 21px;
+}
+
+.element-homepage .frame-18 {
+    height: 105px;
+    left: 20px;
+    position: absolute;
+    top: 120px;
+    width: 260px;
+}
+
+.element-homepage .text-wrapper-18 {
+    color: #363639;
+    font-family: "Roboto-SemiBold", Helvetica;
+    font-size: 18px;
+    font-weight: 600;
+    left: 50px;
+    letter-spacing: 1.44px;
+    line-height: 35px;
+    position: absolute;
+    top: -1px;
+    white-space: nowrap;
+}
+
+.element-homepage .lorem-ipsum {
+    color: #00000080;
+    font-family: "Roboto-Regular", Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 1.44px;
+    line-height: 23px;
+    position: absolute;
+    text-align: center;
+    top: 44px;
+    width: 260px;
+}
+
+.element-homepage .group-2 {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 16px #0000001a;
+    height: 240px;
+    left: 587px;
+    position: absolute;
+    top: 199px;
+    width: 300px;
+}
+
+.element-homepage .text-wrapper-19 {
+    color: #363639;
+    font-family: "Roboto-SemiBold", Helvetica;
+    font-size: 18px;
+    font-weight: 600;
+    left: 48px;
+    letter-spacing: 1.44px;
+    line-height: 35px;
+    position: absolute;
+    top: -1px;
+    white-space: nowrap;
+}
+
+.element-homepage .group-3 {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 16px #0000001a;
+    height: 240px;
+    left: 914px;
+    position: absolute;
+    top: 199px;
+    width: 300px;
+}
+
+.element-homepage .text-wrapper-20 {
+    color: #363639;
+    font-family: "Roboto-SemiBold", Helvetica;
+    font-size: 18px;
+    font-weight: 600;
+    left: -14px;
+    letter-spacing: 1.44px;
+    line-height: 35px;
+    position: absolute;
+    top: -1px;
+    white-space: nowrap;
+}
+
+.element-homepage .group-4 {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 16px #0000001a;
+    height: 240px;
+    left: 1241px;
+    position: absolute;
+    top: 199px;
+    width: 300px;
+}
+
+.element-homepage .text-wrapper-21 {
+    color: #363639;
+    font-family: "Roboto-SemiBold", Helvetica;
+    font-size: 20px;
+    font-weight: 600;
+    left: 85px;
+    letter-spacing: 1.6px;
+    line-height: 35px;
+    position: absolute;
+    top: -1px;
+    white-space: nowrap;
+}
+
+.element-homepage .overlap-4 {
+    background-color: #f1f2f4;
+    height: 680px;
+    left: 0;
+    position: absolute;
+    top: 4233px;
+    width: 1800px;
+}
+
+.element-homepage .text-wrapper-22 {
+    color: #000000;
+    font-family: "Roboto-SemiBold", Helvetica;
+    font-size: 36px;
+    font-weight: 600;
+    left: 742px;
+    letter-spacing: 2.88px;
+    line-height: 35px;
+    position: absolute;
+    top: 90px;
+    white-space: nowrap;
+}
+
+.element-homepage .frame-19 {
+    align-items: flex-end;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 4px #00000040;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 206px 29px;
+    left: 619px;
+    padding: 15px;
+    position: absolute;
+    top: 183px;
+    width: 562px;
+    height: 420px;
+}
+
+.element-homepage .frame-20 {
+    height: 40px;
+    position: relative;
+    width: 204px;
+}
+
+.element-homepage .star {
+    height: 36px;
+    left: 1px;
+    position: absolute;
+    top: 0;
+    width: 38px;
+}
+
+.element-homepage .star-2 {
+    height: 36px;
+    left: 42px;
+    position: absolute;
+    top: 0;
+    width: 38px;
+}
+
+.element-homepage .star-3 {
+    height: 36px;
+    left: 83px;
+    position: absolute;
+    top: 0;
+    width: 38px;
+}
+
+.element-homepage .star-4 {
+    height: 36px;
+    left: 124px;
+    position: absolute;
+    top: 0;
+    width: 38px;
+}
+
+.element-homepage .star-5 {
+    height: 36px;
+    left: 165px;
+    position: absolute;
+    top: 0;
+    width: 38px;
+}
+
+.element-homepage .lorem-ipsum-is {
+    color: #00000080;
+    font-family: "Roboto-Regular", Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1.44px;
+    line-height: 25px;
+    position: relative;
+    top: -110px;
+    width: 532px;
+}
+
+.element-homepage .card-wrapper {
+    height: 60px;
+    position: relative;
+    width: 281px;
+}
+
+.element-homepage .card {
+    border-radius: 8px;
+    height: 63px;
+    overflow: hidden;
+    position: relative;
+}
+
+.element-homepage .ellipse-2 {
+    height: 46px;
+    left: 1px;
+    object-fit: cover;
+    position: absolute;
+    top: 12px;
+    width: 46px;
+}
+
+.element-homepage .overlap-group-3 {
+    height: 46px;
+    left: 61px;
+    position: absolute;
+    top: 11px;
+    width: 101px;
+}
+
+.element-homepage .text-wrapper-23 {
+    color: #000000;
+    font-family: "Roboto-Bold", Helvetica;
+    font-size: 16px;
+    font-weight: 700;
+    left: 0;
+    letter-spacing: -0.32px;
+    line-height: 28px;
+    position: absolute;
+    top: 0;
+    white-space: nowrap;
+}
+
+.element-homepage .group-5 {
+    height: 20px;
+    left: 1px;
+    position: absolute;
+    top: 26px;
+    width: 67px;
+}
+
+.element-homepage .text-wrapper-24 {
+    color: #a3aed0;
+    font-family: "Roboto-Medium", Helvetica;
+    font-size: 12px;
+    font-weight: 500;
+    left: 0;
+    letter-spacing: -0.24px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    white-space: nowrap;
+}
+
+.element-homepage .bxs-quote-alt-left {
+    height: 40px;
+    position: relative;
+    width: 24px;
+}
+
+.element-homepage .bxs-left-arrow-alt {
+    height: 24px;
+    left: 151px;
+    position: absolute;
+    top: 328px;
+    width: 24px;
+}
+
+.element-homepage .bxs-right-arrow-alt {
+    height: 24px;
+    left: 1611px;
+    position: absolute;
+    top: 322px;
+    width: 24px;
+}
+
+.element-homepage .overlap-5 {
+    height: 524px;
+    left: 0;
+    position: absolute;
+    top: 5217px;
+    width: 1802px;
+}
+
+.element-homepage .rectangle-3 {
+    background-color: #000000cc;
+    height: 524px;
+    left: 2px;
+    position: absolute;
+    top: 0;
+    width: 1800px;
+}
+
+.element-homepage .line-2 {
+    height: 1px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 451px;
+    width: 1800px;
+}
+
+.element-homepage .text-wrapper-25 {
+    color: #ffffff;
+    font-family: "Roboto-SemiBold", Helvetica;
+    font-size: 20px;
+    font-weight: 600;
+    left: 730px;
+    letter-spacing: 1.6px;
+    line-height: 35px;
+    position: absolute;
+    top: 470px;
+    white-space: nowrap;
+}
+
+.element-homepage .logo-PSI-2 {
+    height: 97px;
+    left: 399px;
+    object-fit: cover;
+    position: absolute;
+    top: 132px;
+    width: 193px;
+}
+
+.element-homepage .text-wrapper-26 {
+    color: #ffffff;
+    font-family: "Roboto-SemiBold", Helvetica;
+    font-size: 36px;
+    font-weight: 600;
+    left: 935px;
+    letter-spacing: 2.88px;
+    line-height: 35px;
+    position: absolute;
+    top: 131px;
+    white-space: nowrap;
+}
+
+.element-homepage .text-wrapper-27 {
+    color: #ffffff;
+    font-family: "Roboto-SemiBold", Helvetica;
+    font-size: 36px;
+    font-weight: 600;
+    left: 1240px;
+    letter-spacing: 2.88px;
+    line-height: 35px;
+    position: absolute;
+    top: 131px;
+    white-space: nowrap;
+}
+
+.element-homepage .text-wrapper-28 {
+    color: #ffffffbf;
+    font-family: "Roboto-Regular", Helvetica;
+    font-size: 19px;
+    font-weight: 400;
+    left: 935px;
+    letter-spacing: 1.52px;
+    line-height: 35px;
+    position: absolute;
+    top: 194px;
+    white-space: nowrap;
+}
+
+.element-homepage .text-wrapper-29 {
+    color: #ffffffbf;
+    font-family: "Roboto-Regular", Helvetica;
+    font-size: 19px;
+    font-weight: 400;
+    left: 1240px;
+    letter-spacing: 1.52px;
+    line-height: 35px;
+    position: absolute;
+    top: 194px;
+    white-space: nowrap;
+}
+
+.element-homepage .text-wrapper-30 {
+    color: #ffffffbf;
+    font-family: "Roboto-Regular", Helvetica;
+    font-size: 19px;
+    font-weight: 400;
+    left: 935px;
+    letter-spacing: 1.52px;
+    line-height: 35px;
+    position: absolute;
+    top: 229px;
+    white-space: nowrap;
+}
+
+.element-homepage .text-wrapper-31 {
+    color: #ffffffbf;
+    font-family: "Roboto-Regular", Helvetica;
+    font-size: 19px;
+    font-weight: 400;
+    left: 1240px;
+    letter-spacing: 1.52px;
+    line-height: 35px;
+    position: absolute;
+    top: 229px;
+    white-space: nowrap;
+}
+
+.element-homepage .frame-21 {
+    height: 24px;
+    left: 447px;
+    position: absolute;
+    top: 335px;
+    width: 153px;
+}
+
+.element-homepage .frame-22 {
+    align-items: center;
+    display: flex;
+    gap: 8px;
+    left: 412px;
+    padding: 0px 0px 0px 24px;
+    position: absolute;
+    top: 245px;
+    width: 284px;
+}
+
+.element-homepage .frame-23 {
+    align-items: center;
+    display: flex;
+    flex: 1;
+    flex-grow: 1;
+    gap: 8px;
+    padding: 0px 0px 0px 8px;
+    position: relative;
+}
+
+.element-homepage .text-wrapper-32 {
+    color: #ffffff;
+    flex: 1;
+    font-family: "Roboto-Medium", Helvetica;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+}
+
+.element-homepage .line-3 {
+    height: 170px;
+    left: 855px;
+    object-fit: cover;
+    position: absolute;
+    top: 132px;
+    width: 1px;
+}
+
+.element-homepage .text-wrapper-33 {
+    color: #ffffffbf;
+    font-family: "Roboto-Regular", Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    left: 454px;
+    letter-spacing: 1.44px;
+    line-height: 35px;
+    position: absolute;
+    top: 281px;
+    white-space: nowrap;
+}
+
+.element-homepage .overlap-wrapper {
+    box-shadow: 0px 4px 4px #00000040;
+    height: 780px;
+    left: 0;
+    position: absolute;
+    top: 148px;
+    width: 1800px;
+}
+
+.element-homepage .overlap-6 {
+    height: 780px;
+    position: relative;
+}
+
+.element-homepage .psi {
+    height: 780px;
+    left: 4px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 1796px;
+}
+
+.element-homepage .rectangle-4 {
+    background-color: #30509dbf;
+    height: 778px;
+    left: 0;
+    position: absolute;
+    top: 2px;
+    width: 1800px;
+}
+
+.element-homepage .flexcontainer {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 80px;
+    left: 289px;
+    position: absolute;
+    top: 179px;
+    width: 727px;
+}
+
+.element-homepage .text {
+    align-self: stretch;
+    color: #ffffff;
+    font-family: "Roboto-SemiBold", Helvetica;
+    font-size: 36px;
+    font-weight: 600;
+    letter-spacing: 2.88px;
+    line-height: 35px;
+    position: relative;
+}
+
+.element-homepage .span {
+    color: #ffffff;
+    font-family: "Roboto-SemiBold", Helvetica;
+    font-size: 36px;
+    font-weight: 600;
+    letter-spacing: 2.88px;
+    line-height: 35px;
+}
+
+.element-homepage .text-wrapper-34 {
+    color: #ffffffbf;
+    font-family: "Roboto-Regular", Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    left: 287px;
+    letter-spacing: 1.44px;
+    line-height: 35px;
+    position: absolute;
+    top: 291px;
+    width: 722px;
+}
+
+.element-homepage .frame-24 {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 16px #0000001a;
+    height: 119px;
+    left: 405px;
+    position: absolute;
+    top: 549px;
+    width: 301px;
+}
+
+.element-homepage .overlap-group-4 {
+    height: 67px;
+    left: 116px;
+    position: absolute;
+    top: 32px;
+    width: 133px;
+}
+
+.element-homepage .text-wrapper-35 {
+    color: #363639;
+    font-family: "Roboto-SemiBold", Helvetica;
+    font-size: 26px;
+    font-weight: 600;
+    left: 0;
+    letter-spacing: 2.08px;
+    line-height: 35px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    white-space: nowrap;
+}
+
+.element-homepage .text-wrapper-36 {
+    color: #00000080;
+    font-family: "Roboto-Regular", Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 1.44px;
+    line-height: 35px;
+    position: absolute;
+    top: 32px;
+    white-space: nowrap;
+}
+
+.element-homepage .frame-25 {
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    height: 60px;
+    justify-content: center;
+    left: 25px;
+    position: absolute;
+    top: 30px;
+    width: 60px;
+}
+
+.element-homepage .rectangle-5 {
+    background-color: #e7f0fa;
+    border-radius: 8px;
+    height: 74px;
+    margin-bottom: -7px;
+    margin-left: -7px;
+    margin-right: -7px;
+    margin-top: -7px;
+    position: relative;
+    width: 74px;
+}
+
+.element-homepage .bx-briefcase-alt {
+    height: 30px;
+    left: 15px;
+    position: absolute;
+    top: 15px;
+    width: 30px;
+}
+
+.element-homepage .frame-26 {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 16px #0000001a;
+    height: 119px;
+    left: 756px;
+    position: absolute;
+    top: 549px;
+    width: 301px;
+}
+
+.element-homepage .frame-27 {
+    align-items: center;
+    display: inline-flex;
+    gap: 10px;
+    justify-content: center;
+    left: 18px;
+    position: absolute;
+    top: 23px;
+}
+
+.element-homepage .rectangle-6 {
+    background-color: #0a65cc;
+    border-radius: 8px;
+    height: 74px;
+    position: relative;
+    width: 74px;
+}
+
+.element-homepage .bx-briefcase-alt-2 {
+    height: 30px;
+    left: 18px;
+    position: absolute;
+    top: 22px;
+    width: 30px;
+}
+
+.element-homepage .frame-28 {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 16px #0000001a;
+    height: 119px;
+    left: 1107px;
+    position: absolute;
+    top: 549px;
+    width: 301px;
+}
+
+.element-homepage .rectangle-7 {
+    background-color: #e7f0fa;
+    border-radius: 8px;
+    height: 74px;
+    position: relative;
+    width: 74px;
+}
+
+.element-homepage .bx-briefcase-alt-3 {
+    height: 30px;
+    left: 22px;
+    position: absolute;
+    top: 22px;
+    width: 30px;
+}
+
+.element-homepage .offres-d-emploi {
+    color: #000000;
+    font-family: "Roboto-SemiBold", Helvetica;
+    font-size: 36px;
+    font-weight: 600;
+    left: 142px;
+    letter-spacing: 2.88px;
+    line-height: 35px;
+    position: absolute;
+    top: 1013px;
+    white-space: nowrap;
+}
+
+.element-homepage .frame-29 {
+    height: 29px;
+    left: 1521px;
+    position: absolute;
+    top: 1020px;
+    width: 83px;
+}
+
+.element-homepage .text-wrapper-37 {
+    color: #0a65cc;
+    font-family: "Roboto-Bold", Helvetica;
+    font-size: 24px;
+    font-weight: 700;
+    left: -56px;
+    letter-spacing: 1.92px;
+    line-height: 35px;
+    position: absolute;
+    text-align: center;
+    top: -1px;
+    white-space: nowrap;
+}
+
+.element-homepage .bx-right-arrow-alt {
+    height: 24px;
+    left: 58px;
+    position: absolute;
+    top: 6px;
+    width: 30px;
+}
+
+.element-homepage .text-wrapper-38 {
+    color: #000000;
+    font-family: "Roboto-SemiBold", Helvetica;
+    font-size: 36px;
+    font-weight: 600;
+    left: 708px;
+    letter-spacing: 2.88px;
+    line-height: 35px;
+    position: absolute;
+    top: 2293px;
+    white-space: nowrap;
+}
+
+.element-homepage .text-wrapper-carousel{
+
+    position: relative;
+    top: 2393px;
+}
+
+.element-homepage .smoothie-card-instance {
+    left: 723px !important;
+    position: absolute !important;
+    top: 2418px !important;
+}
+
+.element-homepage .design-component-instance-node {
+    left: 298px !important;
+    position: absolute !important;
+    top: 2432px !important;
+}
+
+.element-homepage .smoothie-card-2 {
+    left: 1148px !important;
+    position: absolute !important;
+    top: 2432px !important;
+}
+
+.element-homepage .solar-card-instance {
+    left: 260px !important;
+    position: absolute !important;
+    top: 1141px !important;
+}
+
+.element-homepage .solar-card-2 {
+    left: 950px !important;
+    position: absolute !important;
+    top: 1141px !important;
+}
+
+.element-homepage .overlap-7 {
+    height: 384px;
+    left: 0;
+    position: absolute;
+    top: 3092px;
+    width: 1802px;
+}
+
+.element-homepage .psi-2 {
+    height: 384px;
+    left: 6px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 1796px;
+}
+
+.element-homepage .rectangle-8 {
+    background-color: #000000bf;
+    height: 383px;
+    left: 0;
+    position: absolute;
+    top: 1px;
+    width: 1802px;
+}
+
+.element-homepage .explorer-les {
+    color: #ffffff;
+    font-family: "Roboto-SemiBold", Helvetica;
+    font-size: 36px;
+    font-weight: 600;
+    left: 604px;
+    letter-spacing: 2.88px;
+    line-height: 35px;
+    position: absolute;
+    top: 106px;
+    white-space: nowrap;
+}
+
+.element-homepage .text-wrapper-39 {
+    color: #ffffffbf;
+    font-family: "Roboto-Regular", Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    left: 680px;
+    letter-spacing: 1.44px;
+    line-height: 35px;
+    position: absolute;
+    top: 156px;
+    white-space: nowrap;
+}
+
+.element-homepage .frame-30 {
+    height: 45px;
+    left: 818px;
+    position: absolute;
+    top: 256px;
+    width: 164px;
+}
+
+.element-homepage .text-wrapper-40 {
+    color: #ffffff;
+    font-family: "Roboto-Bold", Helvetica;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1.44px;
+    line-height: 35px;
+    margin-left: -153px;
+    margin-right: -153px;
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.element-homepage .text-wrapper-41 {
+    color: #000000;
+    font-family: "Roboto-SemiBold", Helvetica;
+    font-size: 36px;
+    font-weight: 600;
+    left: 248px;
+    letter-spacing: 2.88px;
+    line-height: 35px;
+    position: absolute;
+    top: 3625px;
+    white-space: nowrap;
+}
+
+.element-homepage .frame-31 {
+    align-items: flex-start;
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: #efeff1;
+    border-radius: 8px;
+    box-shadow: inset 0px 0px 8px #0000000d, 0px 1px 2px #00000040;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 23px;
+    left: 251px;
+    padding: 10px 15px;
+    position: absolute;
+    top: 3753px;
+}
+
+.element-homepage .frame-32 {
+    height: 60px;
+    position: relative;
+    width: 390px;
+}
+
+.element-homepage .overlap-group-5 {
+    height: 46px;
+    left: 59px;
+    position: absolute;
+    top: 11px;
+    width: 103px;
+}
+
+.element-homepage .text-wrapper-42 {
+    color: #000000;
+    font-family: "Roboto-Bold", Helvetica;
+    font-size: 16px;
+    font-weight: 700;
+    left: 2px;
+    letter-spacing: -0.32px;
+    line-height: 28px;
+    position: absolute;
+    top: 0;
+    white-space: nowrap;
+}
+
+.element-homepage .group-6 {
+    height: 20px;
+    left: 0;
+    position: absolute;
+    top: 26px;
+    width: 63px;
+}
+
+.element-homepage .text-wrapper-43 {
+    color: #a3aed0;
+    font-family: "Roboto-Medium", Helvetica;
+    font-size: 12px;
+    font-weight: 500;
+    left: 18px;
+    letter-spacing: -0.24px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    white-space: nowrap;
+}
+
+.element-homepage .bx-map {
+    height: 16px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 16px;
+}
+
+.element-homepage .frame-33 {
+    align-items: center;
+    background-color: #fceeee;
+    border-radius: 8px;
+    display: flex;
+    height: 20px;
+    justify-content: center;
+    left: 183px;
+    position: absolute;
+    top: 15px;
+    width: 110px;
+}
+
+.element-homepage .text-wrapper-44 {
+    color: #eb9292;
+    font-family: "Roboto-Bold", Helvetica;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1.28px;
+    line-height: 35px;
+    margin-bottom: -6.5px;
+    margin-top: -8.5px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.element-homepage .frame-34 {
+    height: 45px;
+    position: relative;
+    width: 384px;
+}
+
+.element-homepage .frame-35 {
+    align-items: center;
+    background-color: #e7f0fa;
+    border: 1px solid;
+    border-color: #e5e5e5;
+    border-radius: 8px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    left: 5px;
+    padding: 5px 180px;
+    position: relative;
+    width: 379px;
+}
+
+.element-homepage .text-wrapper-45 {
+    color: #0a65cc;
+    font-family: "Roboto-Bold", Helvetica;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1.44px;
+    line-height: 35px;
+    margin-left: -90px;
+    margin-right: -90px;
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.element-homepage .frame-36 {
+    align-items: flex-start;
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: #efeff1;
+    border-radius: 8px;
+    box-shadow: inset 0px 0px 8px #0000000d, 0px 1px 2px #00000040;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 23px;
+    left: 251px;
+    padding: 10px 15px;
+    position: absolute;
+    top: 3935px;
+}
+
+.element-homepage .frame-37 {
+    align-items: flex-start;
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: #efeff1;
+    border-radius: 8px;
+    box-shadow: inset 0px 0px 8px #0000000d, 0px 1px 2px #00000040;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 23px;
+    left: 691px;
+    padding: 10px 15px;
+    position: absolute;
+    top: 3753px;
+}
+
+.element-homepage .frame-38 {
+    align-items: flex-start;
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: #efeff1;
+    border-radius: 8px;
+    box-shadow: inset 0px 0px 8px #0000000d, 0px 1px 2px #00000040;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 23px;
+    left: 691px;
+    padding: 10px 15px;
+    position: absolute;
+    top: 3935px;
+}
+
+.element-homepage .frame-39 {
+    align-items: flex-start;
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: #efeff1;
+    border-radius: 8px;
+    box-shadow: inset 0px 0px 8px #0000000d, 0px 1px 2px #00000040;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 23px;
+    left: 1131px;
+    padding: 10px 15px;
+    position: absolute;
+    top: 3753px;
+}
+
+.element-homepage .frame-40 {
+    align-items: flex-start;
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: #efeff1;
+    border-radius: 8px;
+    box-shadow: inset 0px 0px 8px #0000000d, 0px 1px 2px #00000040;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 23px;
+    left: 1131px;
+    padding: 10px 15px;
+    position: absolute;
+    top: 3935px;
+}
+
+.element-homepage .digital-marketing-instance {
+    left: 513px !important;
+    position: absolute !important;
+    top: 5002px !important;
+}
+
+.solar-card {
+    align-items: flex-start;
+    background-color: #ffffff;
+    border-radius: 24px;
+    box-shadow: 0px 4px 40px #00000014;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 383px;
+    overflow: hidden;
+    padding: 20px;
+    position: relative;
+    width: 629px;
+    position: relative;
+    left: -1290px;
+    top:90px;
+}
+
+.solar-card .frame {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 14px;
+    position: relative;
+}
+
+.solar-card .vector {
+    height: 17.42px;
+    position: relative;
+    width: 17.75px;
+}
+
+.solar-card .text-wrapper {
+    color: #000000;
+    font-family: "Roboto-Regular", Helvetica;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 1.2px;
+    position: relative;
+    width: fit-content;
+}
+
+.solar-card .frame-wrapper {
+    align-items: center;
+    display: flex;
+    gap: 33px;
+    height: 217px;
+    justify-content: center;
+    position: relative;
+    width: 582px;
+}
+
+.solar-card .div-wrapper {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 55px;
+    position: relative;
+}
+
+.solar-card .div {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    height: 201px;
+    position: relative;
+    width: 100%;
+}
+
+.solar-card .p {
+    color: #284a80;
+    font-family: "Roboto-Bold", Helvetica;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 32px;
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.solar-card .text-wrapper-2 {
+    color: #8d98a9;
+    flex: 1;
+    font-family: "Roboto-Light", Helvetica;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 0;
+    line-height: 28px;
+    position: relative;
+    width: 541px;
+}
+
+.solar-card .frame-2 {
+    align-items: flex-start;
+    display: flex;
+    flex: 0 0 auto;
+    gap: 24px;
+    position: relative;
+    width: 541px;
+}
+
+.solar-card .frame-3 {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 1;
+    flex-grow: 1;
+    gap: 24px;
+    position: relative;
+}
+
+.solar-card .ellipse {
+    height: 63px;
+    object-fit: cover;
+    position: relative;
+    width: 63px;
+}
+
+.solar-card .frame-4 {
+    align-items: flex-start;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 3px;
+    position: relative;
+}
+
+.solar-card .text-wrapper-3 {
+    color: #284a80;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 28px;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.solar-card .graduate-student-in {
+    color: #8d98aa;
+    font-family: "Inter-Light", Helvetica;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 0;
+    line-height: 28px;
+    position: relative;
+    width: fit-content;
+}
+
+.solar-card .bx-show {
+    height: 24px;
+    position: relative;
+    width: 24px;
+}
+
+/* new card box */
+
+.solar-cards {
+    align-items: flex-start;
+    background-color: #ffffff;
+    border-radius: 24px;
+    box-shadow: 0px 4px 40px #00000014;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 383px;
+    overflow: hidden;
+    padding: 20px;
+    position: relative;
+    width: 629px;
+    left: -540px;
+    bottom: 290px;
+}
+
+.solar-cards .frames {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 14px;
+    position: relative;
+}
+
+.solar-cards .vectors {
+    height: 17.42px;
+    position: relative;
+    width: 17.75px;
+}
+
+.solar-cards .text-wrappers {
+    color: #000000;
+    font-family: "Roboto-Regular", Helvetica;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 1.2px;
+    position: relative;
+    width: fit-content;
+}
+
+.solar-cards .frame-wrappers {
+    align-items: center;
+    display: flex;
+    gap: 33px;
+    height: 217px;
+    justify-content: center;
+    position: relative;
+    width: 582px;
+}
+
+.solar-cards .div-wrappers {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 55px;
+    position: relative;
+}
+
+.solar-cards .divs {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    height: 201px;
+    position: relative;
+    width: 100%;
+}
+
+.solar-cards .ps {
+    color: #284a80;
+    font-family: "Roboto-Bold", Helvetica;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 32px;
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.solar-cards .text-wrappers-2 {
+    color: #8d98a9;
+    flex: 1;
+    font-family: "Roboto-Light", Helvetica;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 0;
+    line-height: 28px;
+    position: relative;
+    width: 541px;
+}
+
+.solar-cards .frames-2 {
+    align-items: flex-start;
+    display: flex;
+    flex: 0 0 auto;
+    gap: 24px;
+    position: relative;
+    width: 541px;
+}
+
+.solar-cards .frames-3 {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 1;
+    flex-grow: 1;
+    gap: 24px;
+    position: relative;
+}
+
+.solar-cards .ellipses {
+    height: 63px;
+    object-fit: cover;
+    position: relative;
+    width: 63px;
+}
+
+.solar-cards .frames-4 {
+    align-items: flex-start;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 3px;
+    position: relative;
+}
+
+.solar-cards .text-wrappers-3 {
+    color: #284a80;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 28px;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.solar-cards .graduate-student-ins {
+    color: #8d98aa;
+    font-family: "Inter-Light", Helvetica;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 0;
+    line-height: 28px;
+    position: relative;
+    width: fit-content;
+}
+
+.solar-cards .bx-shows {
+    height: 24px;
+    position: relative;
+    width: 24px;
+}

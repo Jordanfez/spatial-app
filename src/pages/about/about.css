@@ -1,0 +1,10 @@
+.activiter {
+    background-color: #ccd0db;
+    height: auto;
+    margin-left: 0.2%;
+    transition: background-color 0.3s;
+  }
+  
+  .activiter:hover {
+    background-color: white;
+  }

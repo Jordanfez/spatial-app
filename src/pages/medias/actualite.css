@@ -1,0 +1,19 @@
+.description {
+    color: black;
+    height: auto;
+    transition: color 0.3s;
+}
+
+.description:hover {
+    color: rgba(60, 60, 58, 0.507);
+}
+
+.title {
+    color: white;
+    height: auto;
+    transition: color 0.3s;
+}
+
+.title:hover {
+    color: rgba(238, 238, 15, 0.864);
+}
