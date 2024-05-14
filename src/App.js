@@ -4,6 +4,7 @@ import BounceLoader from "react-spinners/BounceLoader";
 import Login from "./pages/freelance/Login";
 import LoginVerification from "./pages/freelance/LoginVerification";
 import Resetpassword from "./pages/freelance/Resetpassword";
+import ResponsiveAppBar from "./pages/ResponsiveAppBar";
 
 //profile employer
 import Checkout from "./pages/Entreprise/Checkout";
@@ -115,7 +116,7 @@ function App() {
       <Route path="/profil" element={<Profil />} /> */}
 
               {/* <Route path="/home" element={<HomeScreen/>} /> */}
-              {/* <Route path="/responsiveAppBar" element={<ResponsiveAppBar />} /> */}
+              <Route path="/responsiveAppBar" element={<ResponsiveAppBar />} />
 
               {/**section routes des employeurs */}
               {/* <Route path="/DetailProjet" element={<DetailProjet />} />
