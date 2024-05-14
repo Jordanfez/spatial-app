@@ -14,24 +14,14 @@ import ProfilEnd from "./pages/Entreprise/ProfilEnd";
 import Reseaux from "./pages/Entreprise/Reseaux";
 
 
-import DashProfil from "./components/Dashbord1/DashProfil";
-import Freelance from "./components/Dashbord1/Freelance";
-import ProfilDash from "./components/Dashbord1/ProfilDash";
-import DetailProjet from "./pages/DetailProjet";
 import Account from "./pages/freelance/Account";
 import EmailVerification from "./pages/freelance/EmailVerification";
 import ForgetPassword from "./pages/freelance/ForgetPassword";
 // import Accueil from "./components/dashbord/Accueil"
 // import Projet from "./components/dashbord/Projet"
-import Projets from "./components/DashboadFreelance/Projet";
-import AddProjet from "./components/Dashbord1/AddProjet";
-import Module from "./components/Dashbord1/Module";
-import Projet from "./components/Dashbord1/Projet";
 //import Paramettre from "./components/DashboadFreelance/Paramettre"
-import ProfilFreelance from './pages/freelance/ProfilFre';
 
 // dasboad freelance
-import DahProfilFreelance from "./components/DashboadFreelance/DahProfilFreelance";
 
 // spameMarket
 import DetailProduit from "./pages/spaceMarket/DetailProduit";
@@ -40,21 +30,12 @@ import Rapport from "./pages/spaceMarket/Rapport";
 import Tendance from "./pages/spaceMarket/Tendance";
 
 //import dashbord profil
-import DashAccueil from './components/DashboadFreelance/DashAccueil';
 
-import AllProjet from "./pages/AllProjet";
 
 import Commande from "./components/Dashbord1/CommandeProduit";
 import Liste from "./components/Dashbord1/ListeProduit";
 
 // import dashbord admin
-import Accueil from "./components/Admin/Accueil";
-import AddEvenement from "./components/Admin/AddEvenement";
-import AddRapport from "./components/Admin/AddRapport";
-import AddTendance from "./components/Admin/AddTendance";
-import PostActualite from "./components/Admin/PostActualite";
-import Produit from "./components/Admin/Produit";
-import Utilisateur from "./components/Admin/Utilisateur";
 import Index from "./pages/Home";
 
 // not found page
@@ -134,35 +115,35 @@ function App() {
       <Route path="/profil" element={<Profil />} /> */}
 
               {/* <Route path="/home" element={<HomeScreen/>} /> */}
-              <Route path="/responsiveAppBar" element={<ResponsiveAppBar />} />
+              {/* <Route path="/responsiveAppBar" element={<ResponsiveAppBar />} /> */}
 
               {/**section routes des employeurs */}
-              <Route path="/DetailProjet" element={<DetailProjet />} />
+              {/* <Route path="/DetailProjet" element={<DetailProjet />} />
               <Route path="/DashProfil" element={<DashProfil />} />
               <Route path="/Freelance" element={<Freelance />} />
               <Route path="/ProfilDash" element={<ProfilDash />} />
               <Route path="/AddProjet" element={<AddProjet />} />
               <Route path="/Projet" element={<Projet />} />
-              <Route path="/Module" element={<Module />} />
+              <Route path="/Module" element={<Module />} /> */}
 
               {/* <Route path="/Dashbord/Accueil" element={<Accueil />} />
       <Route path="/Dashbord/projet" element={<Projet />} />*/}
 
               {/**section routes des freelance */}
-              <Route path="/DashAccueil" element={<DashAccueil />} />
-              <Route path="/Projets" element={<Projets />} /> {/** inport as dash freelance */}
-              <Route path="/ProfilFreelance" element={<ProfilFreelance />} />
+              {/* <Route path="/DashAccueil" element={<DashAccueil />} />
+              <Route path="/Projets" element={<Projets />} /> * inport as dash freelance */}
+              {/* <Route path="/ProfilFreelance" element={<ProfilFreelance />} />
               <Route path="/AllProjet" element={<AllProjet />} />
-              <Route path="/DahProfilFreelance" element={<DahProfilFreelance />} />
+              <Route path="/DahProfilFreelance" element={<DahProfilFreelance />} /> */}
 
               {/** Route de l'admin */}
-              <Route path="/produitAdmin" element={<Produit />} />
+              {/* <Route path="/produitAdmin" element={<Produit />} />
               <Route path="/utilisateur" element={<Utilisateur />} />
               <Route path="/accuiel" element={<Accueil />} />
               <Route path="/AddActuality" element={<PostActualite />} />
               <Route path="/AddEvenement" element={<AddEvenement />} />
               <Route path="/AddTendance" element={<AddTendance />} />
-              <Route path="/AddRapport" element={<AddRapport />} />
+              <Route path="/AddRapport" element={<AddRapport />} /> */}
 
               {/* module space market */}
               <Route path="/SpaceMarket" element={<Home />} />
