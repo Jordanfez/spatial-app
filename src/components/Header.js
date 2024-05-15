@@ -153,7 +153,7 @@ console.log('open',openSer);
                     <MenuItem eventkey="Freelance" onClick={handleGoToFreelance} sx={{ color: "primary" }}>Freelance</MenuItem>
                     <MenuItem eventKey="SpaceMarket" onClick={handleGoToSpaceMarket}>spaceMarket</MenuItem>
                     <MenuItem eventKey="con" onClick={handleGoToConsulting}>Consultant</MenuItem>
-                    <MenuItem eventKey="con" onClick={handleGoToIndustri} >Industrialisation</MenuItem>
+                    {/* <MenuItem eventKey="con" onClick={handleGoToIndustri} >Industrialisation</MenuItem> */}
                     <MenuItem eventKey="Service" onMouseEnter={handleClickMarket}>
                       <Nav.Link
                         eventKey="Service"
@@ -173,8 +173,8 @@ console.log('open',openSer);
                         }}
                         eventKey="Service"
                       >
-                        <MenuItem eventKey="Service" onClick={handleGoToTENDANCE}>Tendances du marcher</MenuItem>
-                        <MenuItem eventKey="Service" onClick={handleGoToMarcherSpace}>Historique du marcher spatial</MenuItem>
+                        {/* <MenuItem eventKey="Service" onClick={handleGoToTENDANCE}>Tendances du marcher</MenuItem>
+                        <MenuItem eventKey="Service" onClick={handleGoToMarcherSpace}>Historique du marcher spatial</MenuItem> */}
                         <MenuItem eventKey="Service" onClick={handleGoToRapport}>Rapport d'industrie</MenuItem>
                       </Menu>
 

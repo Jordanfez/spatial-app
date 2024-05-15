@@ -160,7 +160,7 @@ const Home = () => {
           <Grid className='mt-2 mt-sm-0'>
             <Grid className='mt-5 my-sm-0' >
               <Box sx={{ padding: 2 }} className='mt-5 text-white'>
-                <Typography variant="h4" data-aos="fade-left" style={{ fontSize: "250%" }}>Space Market</Typography>
+                <Typography variant="h4" data-aos="fade-left" style={{ fontSize: "250%" }}>Market-Space</Typography>
                 <Divider sx={{ backgroundColor: 'white', height: 5, width: 100, borderRadius: 5 }} /><br />
                 <div>
                   <Typography variant="h4" data-aos="fade-left" style={{ fontSize: "250%" }}>Explore the world of space shopping with Space Market
@@ -234,8 +234,8 @@ const Home = () => {
             <Typography variant='h3' className="text-center">What is space-market</Typography>
             <Box textAlign="left">
               <Typography className="p-2">
-                The Space Market is a market, economy or business environment related to space activities. It encompasses a wide range of commercial and industrial activities, such as satellite launches, space transportation services, space equipment manufacturing, space technologies, satellite telecommunications services, space exploration, space tourism, etc. The rapid development of space technologies, combined with growing interest in the exploration and use of space, has led to the creation of a dynamic space business ecosystem.
-                The rapid development of space technologies, combined with growing interest in the exploration and use of space, has led to the creation of a dynamic commercial space ecosystem. Private companies, government agencies and public-private partnerships are all helping to shape this evolving space market.
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea repudiandae, a voluptatibus repellat temporibus officiis similique amet illo ut nobis in sunt voluptas adipisci rem ex nihil consequuntur sed! Hic!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci ducimus voluptatibus minima ipsum quasi. Quod similique modi repellat quas voluptate placeat labore et quos. Officia sed fugiat blanditiis. Quasi, rem.
               </Typography>
             </Box>
           </Col>
@@ -264,7 +264,8 @@ const Home = () => {
               <Typography variant='h3' className="text-center">About our products</Typography>
               <Box textAlign="left">
                 <Typography className="p-2">
-                  Discover our range of space products specializing in GPS data, imagery and meteorology. Get precise information for location, navigation, high-resolution Earth imaging and weather forecasting. Our products are designed to meet your space data needs.
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea repudiandae, a voluptatibus repellat temporibus officiis similique amet illo ut nobis in sunt voluptas adipisci rem ex nihil consequuntur sed! Hic!
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci ducimus voluptatibus minima ipsum quasi. Quod similique modi repellat quas voluptate placeat labore et quos. Officia sed fugiat blanditiis. Quasi, rem.
                 </Typography>
               </Box>
             </Box>
@@ -308,39 +309,39 @@ const Home = () => {
                   {/* </Box> */}
                 </Container>
               </Container>
-              <Grid container className='px-5 pb-5' sx={{ display: 'flex', alignItems: 'center', justifyContent: 'space-around', marginTop:'-15%' }}>
-                <Grid item xs={3} sx={{ textAlign: 'center', marginTop:-2 }} >
+              <Grid container className='px-5 pb-5' sx={{ display: 'flex', alignItems: 'center', justifyContent: 'space-around' }}>
+                <Grid item xs={3} sx={{ textAlign: 'center', marginTop: -2 }} >
                   <Box>
                     <img src={Service1} alt='' height='70' width='70' />
                   </Box>
-                  <Typography className='text-darkblue my-2 fs-4 fw-bold fs-sm-5'  data-aos="fade-down">
-                    Imaging data
+                  <Typography className='text-darkblue my-2 fs-4 fw-bold fs-sm-5' data-aos="fade-down">
+                    Imaging
                   </Typography>
                   <Typography variant='body2' className='text-center' color="text.secondary">
-                    Imagery data provides high-resolution images of the Earth captured from space. They enable us to visualize geographical features, monitor environmental changes and gain a better understanding of our planet. This high-quality visual data is used in fields such as mapping, environmental studies and monitoring.
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea repudiandae, a voluptatibus repellat temporibus officiis similique amet illo ut nobis in sunt voluptas adipisci rem ex nihil consequuntur sed! Hic!
                   </Typography>
                 </Grid>
 
-                <Grid item xs={3} sx={{ textAlign: 'center',  }} >
+                <Grid item xs={3} sx={{ textAlign: 'center', }} >
                   <Box>
                     <img src={Service2} alt='' height='70' width='70' />
                   </Box>
                   <Typography className='text-darkblue my-2 fs-4 fw-bold fs-sm-5' data-aos="fade-down">
-                    GPS data
+                    GPS
                   </Typography>
                   <Typography className='mb-3 lh-sm fs-6' color="text.secondary">
-                    GPS data are used for precise location, navigation and time synchronization. It enables precise determination of position, speed and time in a variety of applications. GPS data is essential for optimizing operations, ensuring reliable connectivity and facilitating logistics planning.
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea repudiandae, a voluptatibus repellat temporibus officiis similique amet illo ut nobis in sunt voluptas adipisci rem ex nihil consequuntur sed! Hic!
                   </Typography>
                 </Grid>
-                <Grid item xs={3} sx={{ textAlign: 'center',marginTop:18 }} >
+                <Grid item xs={3} sx={{ textAlign: 'center', }} >
                   <Box>
                     <img src={Service3} alt='' height='70' width='70' />
                   </Box>
                   <Typography className='text-darkblue my-2 fs-4 fw-bold fs-sm-5' data-aos="fade-down">
-                    Meteorological data
+                    Meteorological
                   </Typography>
                   <Typography className='mb-3 fw-ligh lh-sm ' color="text.secondary">
-                    Les données météorologiques fournissent des informations précieuses sur les conditions atmosphériques actuelles et prévues. Elles comprennent des mesures telles que la température, les précipitations, la pression atmosphérique, les vents et d'autres paramètres liés au climat. Ces données sont utilisées par les professionnels de la météorologie pour la prévision des conditions météorologiques, la gestion des catastrophes naturelles et la compréhension des modèles climatiques.
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea repudiandae, a voluptatibus repellat temporibus officiis similique amet illo ut nobis in sunt voluptas adipisci rem ex nihil consequuntur sed! Hic!
                   </Typography>
 
                 </Grid>
@@ -372,24 +373,86 @@ const Home = () => {
         <Typography variant="h4" className="text-center p-5">Our best offers</Typography>
         <Box className="Row d-flex justify-content-center align-items-center">
           {posts.length === 0 ? (
-            <div className="col-md-3" data-aos="fade-down">
-              <Card sx={{ maxWidth: 345 }}>
-                <Skeleton variant="rectangular" width="100%" height={118} />
-                <CardActions className="d-flex justify-content-between">
-                  <Skeleton width="60%" />
-                </CardActions>
+            <div className="container">
+              <div className="row">
+                <div className="col-md-3" data-aos="fade-down">
+                  <Card sx={{ maxWidth: 345 }}>
+                    <Skeleton variant="rectangular" width="100%" height={118} />
+                    <CardActions className="d-flex justify-content-between">
+                      <Skeleton width="60%" />
+                    </CardActions>
 
-                <CardContent>
-                  <Typography variant="body2" color="text.secondary">
-                    <Skeleton width="60%" />
-                  </Typography>
-                </CardContent>
-                <CardActions className=" d-flex justify-content-center">
-                  <Button className="btn btn-primary" style={buttonStyles}>
-                    <Skeleton />
-                  </Button>
-                </CardActions>
-              </Card>
+                    <CardContent>
+                      <Typography variant="body2" color="text.secondary">
+                        <Skeleton width="60%" />
+                      </Typography>
+                    </CardContent>
+                    <CardActions className=" d-flex justify-content-center">
+                      <Button className="btn btn-primary" style={buttonStyles}>
+                        <Skeleton />
+                      </Button>
+                    </CardActions>
+                  </Card>
+                </div>
+                <div className="col-md-3" data-aos="fade-down">
+                  <Card sx={{ maxWidth: 345 }}>
+                    <Skeleton variant="rectangular" width="100%" height={118} />
+                    <CardActions className="d-flex justify-content-between">
+                      <Skeleton width="60%" />
+                    </CardActions>
+
+                    <CardContent>
+                      <Typography variant="body2" color="text.secondary">
+                        <Skeleton width="60%" />
+                      </Typography>
+                    </CardContent>
+                    <CardActions className=" d-flex justify-content-center">
+                      <Button className="btn btn-primary" style={buttonStyles}>
+                        <Skeleton />
+                      </Button>
+                    </CardActions>
+                  </Card>
+                </div>
+                <div className="col-md-3" data-aos="fade-down">
+                  <Card sx={{ maxWidth: 345 }}>
+                    <Skeleton variant="rectangular" width="100%" height={118} />
+                    <CardActions className="d-flex justify-content-between">
+                      <Skeleton width="60%" />
+                    </CardActions>
+
+                    <CardContent>
+                      <Typography variant="body2" color="text.secondary">
+                        <Skeleton width="60%" />
+                      </Typography>
+                    </CardContent>
+                    <CardActions className=" d-flex justify-content-center">
+                      <Button className="btn btn-primary" style={buttonStyles}>
+                        <Skeleton />
+                      </Button>
+                    </CardActions>
+                  </Card>
+                </div>
+                <div className="col-md-3" data-aos="fade-down">
+                  <Card sx={{ maxWidth: 345 }}>
+                    <Skeleton variant="rectangular" width="100%" height={118} />
+                    <CardActions className="d-flex justify-content-between">
+                      <Skeleton width="60%" />
+                    </CardActions>
+
+                    <CardContent>
+                      <Typography variant="body2" color="text.secondary">
+                        <Skeleton width="60%" />
+                      </Typography>
+                    </CardContent>
+                    <CardActions className=" d-flex justify-content-center">
+                      <Button className="btn btn-primary" style={buttonStyles}>
+                        <Skeleton />
+                      </Button>
+                    </CardActions>
+                  </Card>
+                </div>
+
+              </div>
             </div>
           ) : posts.map((post) => (
             <div className="col-md-3" data-aos="fade-down-left" >
@@ -639,9 +702,183 @@ const Home = () => {
                 </Typography>
               </CardContent>
               <CardActions className=" d-flex justify-content-center">
-                <Button variant="contained" disableElevation data-aos="fade-down">
-                  Buy now
-                </Button>
+                  <Button variant="contained" onClick={handleOpen}  data-aos="fade-down" >
+                    Buy Now
+                  </Button>
+                  <Modal
+                    open={open}
+                    onClose={handleClose}
+                    aria-labelledby="modal-modal-title"
+                    aria-describedby="modal-modal-description"
+                  >
+                    <Box sx={style}>
+                      <Typography
+                        sx={{ mb: 1.5 }}
+                        color="text.dark"
+                        fontWeight="bold"
+                        className="fs-5 text-center"
+                      >
+                        <div className="row">
+                          <div className="col-12"> <HighlightOffIcon className="float-end" style={{ cursor: 'pointer' }} onClick={handleClose} /> </div>
+                        </div>
+                        {showAlert && (
+                          <Alert variant="filled" severity={alert.variant} className="alert-message">
+                            {alert.message}
+                          </Alert>
+                        )}
+                        PAIEMENT
+                      </Typography>
+                      <div className="row ">
+                        <div className="col-6">
+                          <FormControl
+                            fullWidth
+                            sx={{ m: 1 }}
+                            variant="outlined"
+                            size="small"
+                          >
+                            <FormHelperText
+                              id="outlined-projet-helper-text"
+                              className="fs-6 text-dark fw-bold"
+                            >
+                              Nom
+                            </FormHelperText>
+                            <OutlinedInput
+                              className="bg-white"
+                              id="outlined-adornment-projet"
+                              aria-describedby="outlined-projet-helper-text"
+                              inputProps={{
+                                "aria-label": "projet",
+                              }}
+                              placeholder="entrer votre nom"
+                            />
+                          </FormControl>
+                        </div>
+                        <div className="col-6">
+                          <FormControl
+                            fullWidth
+                            sx={{ m: 1 }}
+                            variant="outlined"
+                            size="small"
+                          >
+                            <FormHelperText
+                              id="outlined-projet-helper-text"
+                              className="fs-6 text-dark fw-bold"
+                            >
+                              Email
+                            </FormHelperText>
+                            <OutlinedInput
+                              className="bg-white"
+                              id="outlined-adornment-projet"
+                              aria-describedby="outlined-projet-helper-text"
+                              inputProps={{
+                                "aria-label": "projet",
+                              }}
+                              placeholder="mail@gmail.com"
+                            />
+                          </FormControl>
+                        </div>
+                      </div>
+                      <div className="row ">
+                        <div className="col-6">
+                          <FormControl
+                            fullWidth
+                            sx={{ m: 1 }}
+                            variant="outlined"
+                            size="small"
+                          >
+                            <FormHelperText
+                              id="outlined-projet-helper-text"
+                              className="fs-6 text-dark fw-bold"
+                            >
+                              Adresse
+                            </FormHelperText>
+                            <OutlinedInput
+                              className="bg-white"
+                              id="outlined-adornment-projet"
+                              aria-describedby="outlined-projet-helper-text"
+                              inputProps={{
+                                "aria-label": "projet",
+                              }}
+                              placeholder="entrer votre adresse"
+                            />
+                          </FormControl>
+                        </div>
+                        <div className="col-6">
+                          <FormControl
+                            fullWidth
+                            sx={{ m: 1 }}
+                            variant="outlined"
+                            size="small"
+                          >
+                            <FormHelperText
+                              id="outlined-projet-helper-text"
+                              className="fs-6 text-dark fw-bold"
+                            >
+                              Pays
+                            </FormHelperText>
+                            <OutlinedInput
+                              className="bg-white"
+                              id="outlined-adornment-projet"
+                              aria-describedby="outlined-projet-helper-text"
+                              inputProps={{
+                                "aria-label": "projet",
+                              }}
+                              placeholder="entrer votre pays"
+                            />
+                          </FormControl>
+                        </div>
+                      </div>
+
+                      <div className="row ">
+                        <div className="col">
+                          <FormControl
+                            fullWidth
+                            sx={{ m: 1, height: "40" }}
+                            variant="outlined"
+                          >
+                            <FormHelperText
+                              id="outlined-projet-helper-text"
+                              className="fs-6 text-dark fw-bold"
+                            >
+                              Card
+                            </FormHelperText>
+                            <OutlinedInput
+                              className="bg-white"
+                              id="outlined-adornment-projet"
+                              aria-describedby="outlined-projet-helper-text"
+                              inputProps={{
+                                "aria-label": "projet",
+                              }}
+                              placeholder="_ _ _ _    _ _ _ _    _ _ _ _   _ _ _ _"
+                            />
+                          </FormControl>
+                        </div>
+                        <div className="col">
+                          <FormControl
+                            fullWidth
+                            sx={{ m: 1, height: "40" }}
+                            variant="outlined"
+                          >
+                            <OutlinedInput
+                              className="bg-white"
+                              id="outlined-adornment-projet"
+                              aria-describedby="outlined-projet-helper-text"
+                              inputProps={{
+                                "aria-label": "projet",
+                              }}
+                              style={{ marginTop: "10%" }}
+                              placeholder="_ _/_ _     _ _ _      _ _ _ _ _"
+                            />
+                          </FormControl>
+                        </div>
+                      </div>
+                      <div className="row">
+                        <div className="col-12 mt-5 d-flex justify-content-end">
+                          <button type="button" onClick={handleBuy} class="btn btn-primary btn-lg btn-block">Payer</button>
+                        </div>
+                      </div>
+                    </Box>
+                  </Modal>
               </CardActions>
             </Card>
           </div>
@@ -668,9 +905,183 @@ const Home = () => {
                 </Typography>
               </CardContent>
               <CardActions className=" d-flex justify-content-center">
-                <Button variant="contained" disableElevation data-aos="fade-down">
-                  Buy now
-                </Button>
+                  <Button variant="contained" onClick={handleOpen}  data-aos="fade-down">
+                    Buy Now
+                  </Button>
+                  <Modal
+                    open={open}
+                    onClose={handleClose}
+                    aria-labelledby="modal-modal-title"
+                    aria-describedby="modal-modal-description"
+                  >
+                    <Box sx={style}>
+                      <Typography
+                        sx={{ mb: 1.5 }}
+                        color="text.dark"
+                        fontWeight="bold"
+                        className="fs-5 text-center"
+                      >
+                        <div className="row">
+                          <div className="col-12"> <HighlightOffIcon className="float-end" style={{ cursor: 'pointer' }} onClick={handleClose} /> </div>
+                        </div>
+                        {showAlert && (
+                          <Alert variant="filled" severity={alert.variant} className="alert-message">
+                            {alert.message}
+                          </Alert>
+                        )}
+                        PAIEMENT
+                      </Typography>
+                      <div className="row ">
+                        <div className="col-6">
+                          <FormControl
+                            fullWidth
+                            sx={{ m: 1 }}
+                            variant="outlined"
+                            size="small"
+                          >
+                            <FormHelperText
+                              id="outlined-projet-helper-text"
+                              className="fs-6 text-dark fw-bold"
+                            >
+                              Nom
+                            </FormHelperText>
+                            <OutlinedInput
+                              className="bg-white"
+                              id="outlined-adornment-projet"
+                              aria-describedby="outlined-projet-helper-text"
+                              inputProps={{
+                                "aria-label": "projet",
+                              }}
+                              placeholder="entrer votre nom"
+                            />
+                          </FormControl>
+                        </div>
+                        <div className="col-6">
+                          <FormControl
+                            fullWidth
+                            sx={{ m: 1 }}
+                            variant="outlined"
+                            size="small"
+                          >
+                            <FormHelperText
+                              id="outlined-projet-helper-text"
+                              className="fs-6 text-dark fw-bold"
+                            >
+                              Email
+                            </FormHelperText>
+                            <OutlinedInput
+                              className="bg-white"
+                              id="outlined-adornment-projet"
+                              aria-describedby="outlined-projet-helper-text"
+                              inputProps={{
+                                "aria-label": "projet",
+                              }}
+                              placeholder="mail@gmail.com"
+                            />
+                          </FormControl>
+                        </div>
+                      </div>
+                      <div className="row ">
+                        <div className="col-6">
+                          <FormControl
+                            fullWidth
+                            sx={{ m: 1 }}
+                            variant="outlined"
+                            size="small"
+                          >
+                            <FormHelperText
+                              id="outlined-projet-helper-text"
+                              className="fs-6 text-dark fw-bold"
+                            >
+                              Adresse
+                            </FormHelperText>
+                            <OutlinedInput
+                              className="bg-white"
+                              id="outlined-adornment-projet"
+                              aria-describedby="outlined-projet-helper-text"
+                              inputProps={{
+                                "aria-label": "projet",
+                              }}
+                              placeholder="entrer votre adresse"
+                            />
+                          </FormControl>
+                        </div>
+                        <div className="col-6">
+                          <FormControl
+                            fullWidth
+                            sx={{ m: 1 }}
+                            variant="outlined"
+                            size="small"
+                          >
+                            <FormHelperText
+                              id="outlined-projet-helper-text"
+                              className="fs-6 text-dark fw-bold"
+                            >
+                              Pays
+                            </FormHelperText>
+                            <OutlinedInput
+                              className="bg-white"
+                              id="outlined-adornment-projet"
+                              aria-describedby="outlined-projet-helper-text"
+                              inputProps={{
+                                "aria-label": "projet",
+                              }}
+                              placeholder="entrer votre pays"
+                            />
+                          </FormControl>
+                        </div>
+                      </div>
+
+                      <div className="row ">
+                        <div className="col">
+                          <FormControl
+                            fullWidth
+                            sx={{ m: 1, height: "40" }}
+                            variant="outlined"
+                          >
+                            <FormHelperText
+                              id="outlined-projet-helper-text"
+                              className="fs-6 text-dark fw-bold"
+                            >
+                              Card
+                            </FormHelperText>
+                            <OutlinedInput
+                              className="bg-white"
+                              id="outlined-adornment-projet"
+                              aria-describedby="outlined-projet-helper-text"
+                              inputProps={{
+                                "aria-label": "projet",
+                              }}
+                              placeholder="_ _ _ _    _ _ _ _    _ _ _ _   _ _ _ _"
+                            />
+                          </FormControl>
+                        </div>
+                        <div className="col">
+                          <FormControl
+                            fullWidth
+                            sx={{ m: 1, height: "40" }}
+                            variant="outlined"
+                          >
+                            <OutlinedInput
+                              className="bg-white"
+                              id="outlined-adornment-projet"
+                              aria-describedby="outlined-projet-helper-text"
+                              inputProps={{
+                                "aria-label": "projet",
+                              }}
+                              style={{ marginTop: "10%" }}
+                              placeholder="_ _/_ _     _ _ _      _ _ _ _ _"
+                            />
+                          </FormControl>
+                        </div>
+                      </div>
+                      <div className="row">
+                        <div className="col-12 mt-5 d-flex justify-content-end">
+                          <button type="button" onClick={handleBuy} class="btn btn-primary btn-lg btn-block">Payer</button>
+                        </div>
+                      </div>
+                    </Box>
+                  </Modal>
               </CardActions>
             </Card>
           </div>
@@ -697,9 +1108,183 @@ const Home = () => {
                 </Typography>
               </CardContent>
               <CardActions className=" d-flex justify-content-center">
-                <Button variant="contained" disableElevation data-aos="fade-down">
-                  Buy now
-                </Button>
+                  <Button variant="contained" onClick={handleOpen}  data-aos="fade-down">
+                    Buy Now
+                  </Button>
+                  <Modal
+                    open={open}
+                    onClose={handleClose}
+                    aria-labelledby="modal-modal-title"
+                    aria-describedby="modal-modal-description"
+                  >
+                    <Box sx={style}>
+                      <Typography
+                        sx={{ mb: 1.5 }}
+                        color="text.dark"
+                        fontWeight="bold"
+                        className="fs-5 text-center"
+                      >
+                        <div className="row">
+                          <div className="col-12"> <HighlightOffIcon className="float-end" style={{ cursor: 'pointer' }} onClick={handleClose} /> </div>
+                        </div>
+                        {showAlert && (
+                          <Alert variant="filled" severity={alert.variant} className="alert-message">
+                            {alert.message}
+                          </Alert>
+                        )}
+                        PAIEMENT
+                      </Typography>
+                      <div className="row ">
+                        <div className="col-6">
+                          <FormControl
+                            fullWidth
+                            sx={{ m: 1 }}
+                            variant="outlined"
+                            size="small"
+                          >
+                            <FormHelperText
+                              id="outlined-projet-helper-text"
+                              className="fs-6 text-dark fw-bold"
+                            >
+                              Nom
+                            </FormHelperText>
+                            <OutlinedInput
+                              className="bg-white"
+                              id="outlined-adornment-projet"
+                              aria-describedby="outlined-projet-helper-text"
+                              inputProps={{
+                                "aria-label": "projet",
+                              }}
+                              placeholder="entrer votre nom"
+                            />
+                          </FormControl>
+                        </div>
+                        <div className="col-6">
+                          <FormControl
+                            fullWidth
+                            sx={{ m: 1 }}
+                            variant="outlined"
+                            size="small"
+                          >
+                            <FormHelperText
+                              id="outlined-projet-helper-text"
+                              className="fs-6 text-dark fw-bold"
+                            >
+                              Email
+                            </FormHelperText>
+                            <OutlinedInput
+                              className="bg-white"
+                              id="outlined-adornment-projet"
+                              aria-describedby="outlined-projet-helper-text"
+                              inputProps={{
+                                "aria-label": "projet",
+                              }}
+                              placeholder="mail@gmail.com"
+                            />
+                          </FormControl>
+                        </div>
+                      </div>
+                      <div className="row ">
+                        <div className="col-6">
+                          <FormControl
+                            fullWidth
+                            sx={{ m: 1 }}
+                            variant="outlined"
+                            size="small"
+                          >
+                            <FormHelperText
+                              id="outlined-projet-helper-text"
+                              className="fs-6 text-dark fw-bold"
+                            >
+                              Adresse
+                            </FormHelperText>
+                            <OutlinedInput
+                              className="bg-white"
+                              id="outlined-adornment-projet"
+                              aria-describedby="outlined-projet-helper-text"
+                              inputProps={{
+                                "aria-label": "projet",
+                              }}
+                              placeholder="entrer votre adresse"
+                            />
+                          </FormControl>
+                        </div>
+                        <div className="col-6">
+                          <FormControl
+                            fullWidth
+                            sx={{ m: 1 }}
+                            variant="outlined"
+                            size="small"
+                          >
+                            <FormHelperText
+                              id="outlined-projet-helper-text"
+                              className="fs-6 text-dark fw-bold"
+                            >
+                              Pays
+                            </FormHelperText>
+                            <OutlinedInput
+                              className="bg-white"
+                              id="outlined-adornment-projet"
+                              aria-describedby="outlined-projet-helper-text"
+                              inputProps={{
+                                "aria-label": "projet",
+                              }}
+                              placeholder="entrer votre pays"
+                            />
+                          </FormControl>
+                        </div>
+                      </div>
+
+                      <div className="row ">
+                        <div className="col">
+                          <FormControl
+                            fullWidth
+                            sx={{ m: 1, height: "40" }}
+                            variant="outlined"
+                          >
+                            <FormHelperText
+                              id="outlined-projet-helper-text"
+                              className="fs-6 text-dark fw-bold"
+                            >
+                              Card
+                            </FormHelperText>
+                            <OutlinedInput
+                              className="bg-white"
+                              id="outlined-adornment-projet"
+                              aria-describedby="outlined-projet-helper-text"
+                              inputProps={{
+                                "aria-label": "projet",
+                              }}
+                              placeholder="_ _ _ _    _ _ _ _    _ _ _ _   _ _ _ _"
+                            />
+                          </FormControl>
+                        </div>
+                        <div className="col">
+                          <FormControl
+                            fullWidth
+                            sx={{ m: 1, height: "40" }}
+                            variant="outlined"
+                          >
+                            <OutlinedInput
+                              className="bg-white"
+                              id="outlined-adornment-projet"
+                              aria-describedby="outlined-projet-helper-text"
+                              inputProps={{
+                                "aria-label": "projet",
+                              }}
+                              style={{ marginTop: "10%" }}
+                              placeholder="_ _/_ _     _ _ _      _ _ _ _ _"
+                            />
+                          </FormControl>
+                        </div>
+                      </div>
+                      <div className="row">
+                        <div className="col-12 mt-5 d-flex justify-content-end">
+                          <button type="button" onClick={handleBuy} class="btn btn-primary btn-lg btn-block">Payer</button>
+                        </div>
+                      </div>
+                    </Box>
+                  </Modal>
               </CardActions>
             </Card>
           </div>
@@ -726,9 +1311,183 @@ const Home = () => {
                 </Typography>
               </CardContent>
               <CardActions className=" d-flex justify-content-center">
-                <Button variant="contained" disableElevation data-aos="fade-down">
-                  Buy now
-                </Button>
+                  <Button variant="contained" onClick={handleOpen}>
+                    Buy Now
+                  </Button>
+                  <Modal
+                    open={open}
+                    onClose={handleClose}
+                    aria-labelledby="modal-modal-title"
+                    aria-describedby="modal-modal-description"
+                  >
+                    <Box sx={style}>
+                      <Typography
+                        sx={{ mb: 1.5 }}
+                        color="text.dark"
+                        fontWeight="bold"
+                        className="fs-5 text-center"
+                      >
+                        <div className="row">
+                          <div className="col-12"> <HighlightOffIcon className="float-end" style={{ cursor: 'pointer' }} onClick={handleClose} /> </div>
+                        </div>
+                        {showAlert && (
+                          <Alert variant="filled" severity={alert.variant} className="alert-message">
+                            {alert.message}
+                          </Alert>
+                        )}
+                        PAIEMENT
+                      </Typography>
+                      <div className="row ">
+                        <div className="col-6">
+                          <FormControl
+                            fullWidth
+                            sx={{ m: 1 }}
+                            variant="outlined"
+                            size="small"
+                          >
+                            <FormHelperText
+                              id="outlined-projet-helper-text"
+                              className="fs-6 text-dark fw-bold"
+                            >
+                              Nom
+                            </FormHelperText>
+                            <OutlinedInput
+                              className="bg-white"
+                              id="outlined-adornment-projet"
+                              aria-describedby="outlined-projet-helper-text"
+                              inputProps={{
+                                "aria-label": "projet",
+                              }}
+                              placeholder="entrer votre nom"
+                            />
+                          </FormControl>
+                        </div>
+                        <div className="col-6">
+                          <FormControl
+                            fullWidth
+                            sx={{ m: 1 }}
+                            variant="outlined"
+                            size="small"
+                          >
+                            <FormHelperText
+                              id="outlined-projet-helper-text"
+                              className="fs-6 text-dark fw-bold"
+                            >
+                              Email
+                            </FormHelperText>
+                            <OutlinedInput
+                              className="bg-white"
+                              id="outlined-adornment-projet"
+                              aria-describedby="outlined-projet-helper-text"
+                              inputProps={{
+                                "aria-label": "projet",
+                              }}
+                              placeholder="mail@gmail.com"
+                            />
+                          </FormControl>
+                        </div>
+                      </div>
+                      <div className="row ">
+                        <div className="col-6">
+                          <FormControl
+                            fullWidth
+                            sx={{ m: 1 }}
+                            variant="outlined"
+                            size="small"
+                          >
+                            <FormHelperText
+                              id="outlined-projet-helper-text"
+                              className="fs-6 text-dark fw-bold"
+                            >
+                              Adresse
+                            </FormHelperText>
+                            <OutlinedInput
+                              className="bg-white"
+                              id="outlined-adornment-projet"
+                              aria-describedby="outlined-projet-helper-text"
+                              inputProps={{
+                                "aria-label": "projet",
+                              }}
+                              placeholder="entrer votre adresse"
+                            />
+                          </FormControl>
+                        </div>
+                        <div className="col-6">
+                          <FormControl
+                            fullWidth
+                            sx={{ m: 1 }}
+                            variant="outlined"
+                            size="small"
+                          >
+                            <FormHelperText
+                              id="outlined-projet-helper-text"
+                              className="fs-6 text-dark fw-bold"
+                            >
+                              Pays
+                            </FormHelperText>
+                            <OutlinedInput
+                              className="bg-white"
+                              id="outlined-adornment-projet"
+                              aria-describedby="outlined-projet-helper-text"
+                              inputProps={{
+                                "aria-label": "projet",
+                              }}
+                              placeholder="entrer votre pays"
+                            />
+                          </FormControl>
+                        </div>
+                      </div>
+
+                      <div className="row ">
+                        <div className="col">
+                          <FormControl
+                            fullWidth
+                            sx={{ m: 1, height: "40" }}
+                            variant="outlined"
+                          >
+                            <FormHelperText
+                              id="outlined-projet-helper-text"
+                              className="fs-6 text-dark fw-bold"
+                            >
+                              Card
+                            </FormHelperText>
+                            <OutlinedInput
+                              className="bg-white"
+                              id="outlined-adornment-projet"
+                              aria-describedby="outlined-projet-helper-text"
+                              inputProps={{
+                                "aria-label": "projet",
+                              }}
+                              placeholder="_ _ _ _    _ _ _ _    _ _ _ _   _ _ _ _"
+                            />
+                          </FormControl>
+                        </div>
+                        <div className="col">
+                          <FormControl
+                            fullWidth
+                            sx={{ m: 1, height: "40" }}
+                            variant="outlined"
+                          >
+                            <OutlinedInput
+                              className="bg-white"
+                              id="outlined-adornment-projet"
+                              aria-describedby="outlined-projet-helper-text"
+                              inputProps={{
+                                "aria-label": "projet",
+                              }}
+                              style={{ marginTop: "10%" }}
+                              placeholder="_ _/_ _     _ _ _      _ _ _ _ _"
+                            />
+                          </FormControl>
+                        </div>
+                      </div>
+                      <div className="row">
+                        <div className="col-12 mt-5 d-flex justify-content-end">
+                          <button type="button" onClick={handleBuy} class="btn btn-primary btn-lg btn-block">Payer</button>
+                        </div>
+                      </div>
+                    </Box>
+                  </Modal>
               </CardActions>
             </Card>
           </div>

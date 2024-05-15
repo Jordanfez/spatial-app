@@ -26,7 +26,6 @@ import Header from '../../components/Header';
 import Bank from '../images/Bank Building.png';
 import Femme from '../images/Femme.png';
 import General from '../images/General Policy.png';
-import Woman from '../images/high-angle-woman-talking-phone 1.jpg';
 import image1 from '../images/homme.jpg';
 import Lease from '../images/Lease.png';
 import Real from '../images/Real Estate.png';
@@ -105,14 +104,12 @@ const Consultant = () => {
 
                 <Grid sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                     <Grid item xs={12}>
-                        <Typography className='text-black fs-6 fw-bold fs-sm-6 mb-3 p-2' data-aos="fade-down">
-                            En tant qu'experts de premier plan dans ce domaine, nous sommes
-                            présents dans plus de 50 pays.
+                        <Typography className='text-center text-black fs-6 fw-bold fs-sm-6 mb-3 p-2' data-aos="fade-down">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                         </Typography>
                         <Typography variant="body2" color="text.secondary" className='text-center p-2'>
-                            Welcome to Pan-African Space Industry (PSI) Consultancy, where innovation meets practical solutions <br />
-                            to propel the African space industry forward. We specialize in providing cutting-edge consulting and  <br />
-                            advisory services to governments, start-ups, NGOs, and other stakeholders across the continent
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.<br /> Ea repudiandae, a voluptatibus repellat temporibus officiis similique <br /> amet illo ut nobis in sunt voluptas adipisci rem ex nihil consequuntur sed! Hic!<br />
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.<br /> Adipisci ducimus voluptatibus minima ipsum quasi.<br /> Quod similique modi repellat <br /> quas voluptate placeat labore et quos. Officia sed fugiat blanditiis. Quasi, rem.
                         </Typography>
                     </Grid>
 
@@ -129,8 +126,9 @@ const Consultant = () => {
                                 Benefits
                             </Typography>
                             <Typography variant="body2" color="text.secondary" className='mb-5'>
-                                Join us at PSI Consultancy and embark on a journey of discovery, innovation, and transformation in
-                                the African space sector
+                                Join Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                Ea repudiandae, a voluptatibus repellat temporibus officiis similique
+                                amet illo ut nobis in sunt voluptas adipisci rem ex nihil consequuntur sed! Hic!
                             </Typography>
 
                         </Box>
@@ -149,9 +147,7 @@ const Consultant = () => {
                                     <CardActionArea>
                                         <CardContent>
                                             <Typography variant="body2" color="text.secondary">
-                                                At PSI, we offer a wide array of exclusive benefits, including access to state-of-the-art software and
-                                                online services for earth observation, navigation, telecommunication, and space science exploration
-                                                applications.
+                                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea repudiandae, a voluptatibus repellat temporibus officiis similique amet illo ut nobis in sunt voluptas adipisci rem ex nihil consequuntur sed! Hic!
                                             </Typography>
                                         </CardContent>
                                     </CardActionArea>
@@ -174,9 +170,7 @@ const Consultant = () => {
                                         <CardContent>
 
                                             <Typography variant="body2" color="text.secondary">
-                                                At PSI, we offer a wide array of exclusive benefits, including access to state-of-the-art software and
-                                                online services for earth observation, navigation, telecommunication, and space science exploration
-                                                applications.
+                                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea repudiandae, a voluptatibus repellat temporibus officiis similique amet illo ut nobis in sunt voluptas adipisci rem ex nihil consequuntur sed! Hic!
                                             </Typography>
                                         </CardContent>
                                     </CardActionArea>
@@ -199,9 +193,7 @@ const Consultant = () => {
                                         <CardContent>
 
                                             <Typography variant="body2" color="text.secondary">
-                                                At PSI, we offer a wide array of exclusive benefits, including access to state-of-the-art software and
-                                                online services for earth observation, navigation, telecommunication, and space science exploration
-                                                applications.
+                                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea repudiandae, a voluptatibus repellat temporibus officiis similique amet illo ut nobis in sunt voluptas adipisci rem ex nihil consequuntur sed! Hic!
                                             </Typography>
                                         </CardContent>
                                     </CardActionArea>
@@ -224,9 +216,7 @@ const Consultant = () => {
                                         <CardContent>
 
                                             <Typography variant="body2" color="text.secondary">
-                                                At PSI, we offer a wide array of exclusive benefits, including access to state-of-the-art software and
-                                                online services for earth observation, navigation, telecommunication, and space science exploration
-                                                applications.
+                                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea repudiandae, a voluptatibus repellat temporibus officiis similique amet illo ut nobis in sunt voluptas adipisci rem ex nihil consequuntur sed! Hic!
                                             </Typography>
                                         </CardContent>
                                     </CardActionArea>
@@ -299,7 +289,7 @@ const Consultant = () => {
                                         </Typography>
                                         <Divider orientation="vertical" variant="middle" flexItem />
                                         <Typography variant="body2" color="text.secondary" className='mb-3 text-center'>
-                                            Space science and Exploration
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                                         </Typography>
                                     </Grid>
                                     <Grid item xs={12} md={1}>
@@ -307,8 +297,7 @@ const Consultant = () => {
                                             Application consultants
                                         </Typography>
                                         <Typography variant="body2" color="text.secondary" className='mb-3 text-center'>
-                                            Space systems engineering and <br />
-                                            space applications
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                                         </Typography>
 
                                     </Grid>
@@ -317,8 +306,7 @@ const Consultant = () => {
                                             Cosmic Consultants
                                         </Typography>
                                         <Typography variant="body2" color="text.secondary" className='mb-3 text-center'>
-                                            Space Law, Policy and<br />
-                                            Entrepreneurship
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                                         </Typography>
                                     </Grid>
 
@@ -333,7 +321,7 @@ const Consultant = () => {
             {/*  Section choose */}
             <Grid sx={{ backgroundColor: '#f1f2f4', height: '300' }} className='mb-5'>
                 <Row >
-                    <Col xs={false} sm={6} md={6} style={{ backgroundImage: { Woman } }}>
+                    <Col xs={false} sm={6} md={6} style={{ backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundImage: 'url(https://sc-api.psu.edu/s3/files/styles/4_3_1500w/public/2022/05/TimekaTounsel.jpg?h=81da5ed6&itok=gBF4t3Yw' }}>
 
                         {/* <Box sx={{ height: '100' }}>
                             <img src={Woman} alt='' />
@@ -349,31 +337,31 @@ const Consultant = () => {
                                 <ListItemIcon>
                                     <ArrowForwardIcon sx={{ color: 'white' }} />
                                 </ListItemIcon>
-                                <ListItemText primary="Vast Experience in the space industry" />
+                                <ListItemText primary="Lorem, ipsum dolor sit amet consectetur adipisicing elit." />
                             </ListItem>
                             <ListItem>
                                 <ListItemIcon>
                                     <ArrowForwardIcon sx={{ color: 'white' }} />
                                 </ListItemIcon>
-                                <ListItemText primary="Trending Innovation" />
+                                <ListItemText primary="Lorem, ipsum dolor sit amet consectetur adipisicing elit." />
                             </ListItem>
                             <ListItem>
                                 <ListItemIcon>
                                     <ArrowForwardIcon sx={{ color: 'white' }} />
                                 </ListItemIcon>
-                                <ListItemText primary="Regular training and evolving capacity building" />
+                                <ListItemText primary="Lorem, ipsum dolor sit amet consectetur adipisicing elit." />
                             </ListItem>
                             <ListItem>
                                 <ListItemIcon>
                                     <ArrowForwardIcon sx={{ color: 'white' }} />
                                 </ListItemIcon>
-                                <ListItemText primary="Interdisciplinary and multinational Network" />
+                                <ListItemText primary="Lorem, ipsum dolor sit amet consectetur adipisicing elit." />
                             </ListItem>
                             <ListItem>
                                 <ListItemIcon>
                                     <ArrowForwardIcon sx={{ color: 'white' }} />
                                 </ListItemIcon>
-                                <ListItemText primary="Realtime, honest and detailed Market Analysis" />
+                                <ListItemText primary="Lorem, ipsum dolor sit amet consectetur adipisicing elit." />
                             </ListItem>
                         </List>
                     </Col>
@@ -389,7 +377,7 @@ const Consultant = () => {
                             Value Proposition
                         </Typography>
                         <Typography variant="body2" color="text.secondary" className='mb-2'>
-                            At PSI, our consultancy services offer a unique value proposition that sets us apart in the industry:
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea repudiandae, a voluptatibus repellat temporibus officiis similique amet illo ut nobis in sunt voluptas adipisci rem ex nihil consequuntur sed! Hic!
                         </Typography>
                     </Box>
                 </Grid>
@@ -476,7 +464,7 @@ const Consultant = () => {
                                     Consultancy services
                                 </Typography>
                                 <Typography variant="body2" color="text.secondary" className='mb-2'>
-                                    Select your category here to know more about the services we are offering for you!
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                                 </Typography>
 
                             </Box>
@@ -485,19 +473,19 @@ const Consultant = () => {
                                     <List className='fw-bold' data-aos="fade-up">
                                         <ListItem>
                                             <ListItemIcon className='fs-3 fw-bold fs-sm-5' sx={{ color: '#413DEE' }}>01.</ListItemIcon>
-                                            <ListItemText sx={{ fontWeight: 'bold' }} primary="Regional Space-related institutions" />
+                                            <ListItemText sx={{ fontWeight: 'bold' }} primary="Lorem, ipsum dolor sit" />
                                         </ListItem>
                                         <ListItem>
                                             <ListItemIcon className='fs-3 fw-bold fs-sm-5' sx={{ color: '#413DEE' }}>03.</ListItemIcon>
-                                            <ListItemText sx={{ fontWeight: 'bold' }} primary="Space Agencies" />
+                                            <ListItemText sx={{ fontWeight: 'bold' }} primary="Lorem, ipsum dolor sit" />
                                         </ListItem>
                                         <ListItem>
                                             <ListItemIcon className='fs-3 fw-bold fs-sm-5' sx={{ color: '#413DEE' }}>05.</ListItemIcon>
-                                            <ListItemText sx={{ fontWeight: 'bold' }} primary="Ministries & Public institutions" />
+                                            <ListItemText sx={{ fontWeight: 'bold' }} primary="Lorem, ipsum dolor sits" />
                                         </ListItem>
                                         <ListItem>
                                             <ListItemIcon className='fs-3 fw-bold fs-sm-5' sx={{ color: '#413DEE' }}>07.</ListItemIcon>
-                                            <ListItemText sx={{ fontWeight: 'bold' }} primary="Non-Governmental Organizations (NGOs)" />
+                                            <ListItemText sx={{ fontWeight: 'bold' }} primary="Lorem, ipsum dolor sit" />
                                         </ListItem>
                                     </List>
                                 </Col>
@@ -505,19 +493,19 @@ const Consultant = () => {
                                     <List className='fw-bold' data-aos="fade-down">
                                         <ListItem>
                                             <ListItemIcon className='fs-3 fw-bold fs-sm-5' sx={{ color: '#413DEE' }}>02.</ListItemIcon>
-                                            <ListItemText sx={{ fontWeight: 'bold' }} primary="Universities" />
+                                            <ListItemText sx={{ fontWeight: 'bold' }} primary="Lorem, ipsum dolor sit" />
                                         </ListItem>
                                         <ListItem>
                                             <ListItemIcon className='fs-3 fw-bold fs-sm-5' sx={{ color: '#413DEE' }}>04.</ListItemIcon>
-                                            <ListItemText sx={{ fontWeight: 'bold' }} primary="Research Institutions and Laboratories" />
+                                            <ListItemText sx={{ fontWeight: 'bold' }} primary="Lorem, ipsum dolor sit" />
                                         </ListItem>
                                         <ListItem>
                                             <ListItemIcon className='fs-3 fw-bold fs-sm-5' sx={{ color: '#413DEE' }}>06.</ListItemIcon>
-                                            <ListItemText sx={{ fontWeight: 'bold' }} primary="Startups and Small Businesses" />
+                                            <ListItemText sx={{ fontWeight: 'bold' }} primary="Lorem, ipsum dolor sit" />
                                         </ListItem>
                                         <ListItem>
                                             <ListItemIcon className='fs-3 fw-bold fs-sm-5' sx={{ color: '#413DEE' }}>08.</ListItemIcon>
-                                            <ListItemText sx={{ fontWeight: 'bold' }} primary="International Space Agencies and Organizations" />
+                                            <ListItemText sx={{ fontWeight: 'bold' }} primary="Lorem, ipsum dolor sit" />
                                         </ListItem>
                                     </List>
                                 </Col>
@@ -531,7 +519,7 @@ const Consultant = () => {
             </Container>
 
             {/* Section services */}
-            <Container className='mb-5 p-5'>
+            {/* <Container className='mb-5 p-5'>
                 <Row>
                     <Col xs={12} sm={7} md={5}>
                         <Grid sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', textAlign: 'start' }}>
@@ -540,14 +528,9 @@ const Consultant = () => {
                                     Service Packages
                                 </Typography>
                                 <Typography variant="body2" color="text.secondary" className='mb-5'>
-                                    At PSI, we understand that each project is unique and may require different approaches, resources,
-                                    and levels of engagement. Our service packages are tailored to meet the specific needs and goals of
-                                    your project, taking into account various parameters such as scope, complexity, timeline, and budget.
-                                    Please contact us to discuss your project in detail and provide us with insights into your requirements,
-                                    objectives, and constraints. Based on this information, we will work closely with you to customize a
-                                    service package that best aligns with your needs and maximizes the value we can deliver.
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea repudiandae, a voluptatibus repellat temporibus officiis similique amet illo ut nobis in sunt voluptas adipisci rem ex nihil consequuntur sed! Hic!
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci ducimus voluptatibus minima ipsum quasi. Quod similique modi repellat quas voluptate placeat labore et quos. Officia sed fugiat blanditiis. Quasi, rem.
                                 </Typography>
-
                             </Box>
                         </Grid>
                     </Col>
@@ -587,7 +570,7 @@ const Consultant = () => {
 
                 </Row>
 
-            </Container>
+            </Container> */}
 
             {/* Section Mission */}
             <Grid sx={{ backgroundColor: '#30509D' }} className='mb-5 p-5'>

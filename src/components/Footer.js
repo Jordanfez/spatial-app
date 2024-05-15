@@ -149,23 +149,6 @@ function Footer(props) {
                                             </ListItemButton>
 
                                         </Link>
-                                        <Link onClick={handleGoNotFound} underline="none">
-                                            <ListItemButton sx={{
-                                                '&:hover': {
-                                                    backgroundColor: '#f1f2f4',
-                                                },
-                                            }}>
-                                                <ListItemIcon>
-                                                    <ListItemText primary="Industrialisation" sx={{
-                                                        '&:hover': {
-                                                            backgroundColor: '#f1f2f4',
-                                                            color: '#413DEE',
-                                                        },
-                                                    }} />
-                                                </ListItemIcon>
-                                            </ListItemButton>
-
-                                        </Link>
                                     </List>
                                 </Box>
                             </Col>

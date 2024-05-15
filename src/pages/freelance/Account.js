@@ -22,7 +22,6 @@ import { UseToggleFunction } from '../../components/component.function/userToggl
 import Header from "../../components/Header";
 import { loginUser } from "../../features/UserElement";
 import { setUser } from "../../features/UserSlice";
-import Logo from "../../img/logopsi1.png";
 import { singUp } from '../../services/Post/singUpFunction';
 import { fetchUserFunction } from '../../services/userFunction';
 import * as Components from "./Components";
@@ -225,7 +224,7 @@ const Account = () => {
                       justifyContent: "center",
                     }}
                   >
-                    <img src={Logo} style={{ height: '80px' }} alt="" />
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLruMNO37oQ9xg_yGNDVt9ujdQ47IauJ2leIrEd7s2oR1Pn9LIHITkVTnzuM-LJdMZNks&usqp=CAU" style={{ height: '80px' }} alt="" />
                     <Typography component="h1" variant="h5" className="fw-bold mb-2">
                       Créer Un Compte
                     </Typography>

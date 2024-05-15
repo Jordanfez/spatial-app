@@ -10,7 +10,6 @@ import TextField from "@mui/material/TextField";
 import Typography from "@mui/material/Typography";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import * as React from "react";
-import Logo from "../../img/logopsi1-0.png";
 import * as Components from "./Components";
 //import { useLoginMutation } from "../../services/appApi";
 //import { Alert } from 'react-bootstrap';
@@ -148,7 +147,7 @@ const Login = () => {
 
                       </div>
                       <div className="col-md-6 col-sm-12  text-center">
-                        <img className="float-end" src={Logo} style={{ height: '68px' }} alt="" />
+                        <img className="float-end" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLruMNO37oQ9xg_yGNDVt9ujdQ47IauJ2leIrEd7s2oR1Pn9LIHITkVTnzuM-LJdMZNks&usqp=CAU" style={{ height: '68px' }} alt="" />
                       </div>
                     </div>
 
